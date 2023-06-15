@@ -1,3 +1,6 @@
+library(readxl)
+car_data <- read_excel("~/Dropbox/R Projects/For Fun/Rcars.xlsx")
+
 library(ggplot2)
 library(ggrepel)
 
